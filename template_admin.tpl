@@ -7,7 +7,11 @@
 <script src="//cdn.amcharts.com/lib/4/plugins/wordCloud.js"></script>
 <script src="//cdn.amcharts.com/lib/4/themes/animated.js"></script>
 
-
+<style>
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1500px;
+}
+</style>
 
 <div class="page-wrapper">
     <div class="container-xl">
