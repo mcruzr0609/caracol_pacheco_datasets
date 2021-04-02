@@ -512,7 +512,7 @@
                     <div class="card">
                         <div class="card-body" style="position: relative;">
                             <h3 class="card-title">Genero de usuarios</h3>
-                            <br><br>
+                            <br>
                             <div id="chart-gender-pie" style="min-height: 201.9px;"></div>
                         </div>
                     </div>
@@ -699,7 +699,7 @@
         chart: {
             type: "donut",
             fontFamily: 'inherit',
-            height: 240,
+            height: 300,
             sparkline: {
                 enabled: true
             },
