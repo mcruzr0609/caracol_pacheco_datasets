@@ -27,7 +27,16 @@
                 <div class="col">
                     <!-- Page pre-title -->
                     <div class="page-pretitle">
-                        Caracol Pacheco
+                        <!-- Download SVG icon from http://tabler-icons.io/i/rocket -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
+                            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3" />
+                            <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3" />
+                            <circle cx="15" cy="9" r="1" />
+                        </svg> Caracol Pacheco
                     </div>
                     <h2 class="page-title">
                         #{{ caracol.trend}}
@@ -43,7 +52,16 @@
                     <div class="card">
                         <div class="card-body p-2 text-center">
                             <div class="h1 m-0">{{ caracol.tweets}}</div>
-                            <div class="text-muted mb-3">Tweets</div>
+                            <div class="text-muted mb-3">
+                                <!-- Download SVG icon from http://tabler-icons.io/i/brand-twitter -->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                                </svg> Tweets
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -51,7 +69,18 @@
                     <div class="card">
                         <div class="card-body p-2 text-center">
                             <div class="h1 m-0">{{ caracol.usuarios}}</div>
-                            <div class="text-muted mb-3">Usuarios</div>
+                            <div class="text-muted mb-3">
+                                <!-- Download SVG icon from http://tabler-icons.io/i/users -->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <circle cx="9" cy="7" r="4" />
+                                    <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                    <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                                </svg> Usuarios
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -59,7 +88,18 @@
                     <div class="card">
                         <div class="card-body p-2 text-center">
                             <div class="h1 m-0">{{ caracol.comentarios}}</div>
-                            <div class="text-muted mb-3">Reply</div>
+                            <div class="text-muted mb-3">
+                                <!-- Download SVG icon from http://tabler-icons.io/i/message-circle -->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1" />
+                                    <line x1="12" y1="12" x2="12" y2="12.01" />
+                                    <line x1="8" y1="12" x2="8" y2="12.01" />
+                                    <line x1="16" y1="12" x2="16" y2="12.01" />
+                                </svg> Reply
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -67,7 +107,15 @@
                     <div class="card">
                         <div class="card-body p-2 text-center">
                             <div class="h1 m-0">{{ caracol.likes}}</div>
-                            <div class="text-muted mb-3">Likes</div>
+                            <div class="text-muted mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg> Likes
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -75,7 +123,13 @@
                     <div class="card">
                         <div class="card-body p-2 text-center">
                             <div class="h1 m-0">{{ caracol.retweets}}</div>
-                            <div class="text-muted mb-3">Retweets</div>
+                            <div class="text-muted mb-3"> <svg xmlns="http://www.w3.org/2000/svg" class="icon"
+                                    width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" />
+                                    <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" />
+                                </svg> Retweets</div>
                         </div>
                     </div>
                 </div>
@@ -206,12 +260,11 @@
                                 <a href="#tabs-retweets" class="nav-link" data-bs-toggle="tab">Retweets</a>
                             </li>
                         </ul>
-                        <div class="card-body">
+                        <div class="card-body" style="height: calc(24rem + 10px); overflow:hidden; overflow-y:scroll;">
                             <div class="tab-content">
                                 <div class="tab-pane fade active show" id="tabs-replys">
                                     <h3 class="card-title">Top de replys</h3>
-                                    <div class="card-table table-responsive"
-                                        style="height: calc(24rem + 10px); overflow:hidden; overflow-y:scroll;">
+                                    <div class="card-table table-responsive">
                                         <table class="table table-vcenter">
                                             <thead>
                                                 <tr>
@@ -238,10 +291,37 @@
                                                     <td class="td-text-nowrap">
                                                         {{ value['Text'] }}
                                                     </td>
-                                                    <td class="text-nowrap text-success">{{ value['Comments'] | int }}
+                                                    <td class="text-nowrap text-success">
+                                                        <!-- Download SVG icon from http://tabler-icons.io/i/message-circle -->
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
+                                                            height="24" viewBox="0 0 24 24" stroke-width="2"
+                                                            stroke="currentColor" fill="none" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                            <path d="M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1" />
+                                                            <line x1="12" y1="12" x2="12" y2="12.01" />
+                                                            <line x1="8" y1="12" x2="8" y2="12.01" />
+                                                            <line x1="16" y1="12" x2="16" y2="12.01" />
+                                                        </svg> {{ value['Comments'] | int }}
                                                     </td>
-                                                    <td class="text-nowrap text-muted">{{ value['Likes'] | int}}</td>
-                                                    <td class="text-nowrap text-muted">{{ value['Retweets'] | int }}
+                                                    <td class="text-nowrap text-muted"> <svg
+                                                            xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
+                                                            height="24" viewBox="0 0 24 24" stroke-width="2"
+                                                            stroke="currentColor" fill="none" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                            <path
+                                                                d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                                        </svg> {{ value['Likes'] | int}}</td>
+                                                    <td class="text-nowrap text-muted"> <svg
+                                                            xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
+                                                            height="24" viewBox="0 0 24 24" stroke-width="2"
+                                                            stroke="currentColor" fill="none" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                            <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" />
+                                                            <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" />
+                                                        </svg> {{ value['Retweets'] | int }}
                                                     </td>
                                                 </tr>
                                                 {% endfor %}
@@ -252,8 +332,7 @@
 
                                 <div class="tab-pane fade" id="tabs-likes">
                                     <h3 class="card-title">Top de likes</h3>
-                                    <div class="card-table table-responsive"
-                                        style="height: calc(24rem + 10px); overflow:hidden; overflow-y:scroll;">
+                                    <div class="card-table table-responsive">
                                         <table class="table table-vcenter">
                                             <thead>
                                                 <tr>
@@ -280,10 +359,37 @@
                                                     <td class="td-text-nowrap">
                                                         {{ value['Text'] }}
                                                     </td>
-                                                    <td class="text-nowrap text-muted">{{ value['Comments'] | int }}
+                                                    <td class="text-nowrap text-muted">
+                                                        <!-- Download SVG icon from http://tabler-icons.io/i/message-circle -->
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
+                                                            height="24" viewBox="0 0 24 24" stroke-width="2"
+                                                            stroke="currentColor" fill="none" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                            <path d="M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1" />
+                                                            <line x1="12" y1="12" x2="12" y2="12.01" />
+                                                            <line x1="8" y1="12" x2="8" y2="12.01" />
+                                                            <line x1="16" y1="12" x2="16" y2="12.01" />
+                                                        </svg> {{ value['Comments'] | int }}
                                                     </td>
-                                                    <td class="text-nowrap text-success">{{ value['Likes'] | int}}</td>
-                                                    <td class="text-nowrap text-muted">{{ value['Retweets'] | int }}
+                                                    <td class="text-nowrap text-success"> <svg
+                                                            xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
+                                                            height="24" viewBox="0 0 24 24" stroke-width="2"
+                                                            stroke="currentColor" fill="none" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                            <path
+                                                                d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                                        </svg> {{ value['Likes'] | int}}</td>
+                                                    <td class="text-nowrap text-muted"> <svg
+                                                            xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
+                                                            height="24" viewBox="0 0 24 24" stroke-width="2"
+                                                            stroke="currentColor" fill="none" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                            <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" />
+                                                            <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" />
+                                                        </svg> {{ value['Retweets'] | int }}
                                                     </td>
                                                 </tr>
                                                 {% endfor %}
@@ -294,8 +400,7 @@
 
                                 <div class="tab-pane fade" id="tabs-retweets">
                                     <h3 class="card-title">Top de retweets</h3>
-                                    <div class="card-table table-responsive"
-                                        style="height: calc(24rem + 10px); overflow:hidden; overflow-y:scroll;">
+                                    <div class="card-table table-responsive">
                                         <table class="table table-vcenter">
                                             <thead>
                                                 <tr>
@@ -322,10 +427,37 @@
                                                     <td class="td-text-nowrap">
                                                         {{ value['Text'] }}
                                                     </td>
-                                                    <td class="text-nowrap text-muted">{{ value['Comments'] | int }}
+                                                    <td class="text-nowrap text-muted">
+                                                        <!-- Download SVG icon from http://tabler-icons.io/i/message-circle -->
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
+                                                            height="24" viewBox="0 0 24 24" stroke-width="2"
+                                                            stroke="currentColor" fill="none" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                            <path d="M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1" />
+                                                            <line x1="12" y1="12" x2="12" y2="12.01" />
+                                                            <line x1="8" y1="12" x2="8" y2="12.01" />
+                                                            <line x1="16" y1="12" x2="16" y2="12.01" />
+                                                        </svg> {{ value['Comments'] | int }}
                                                     </td>
-                                                    <td class="text-nowrap text-muted">{{ value['Likes'] | int}}</td>
-                                                    <td class="text-nowrap text-success">{{ value['Retweets'] | int }}
+                                                    <td class="text-nowrap text-muted"> <svg
+                                                            xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
+                                                            height="24" viewBox="0 0 24 24" stroke-width="2"
+                                                            stroke="currentColor" fill="none" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                            <path
+                                                                d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                                        </svg> {{ value['Likes'] | int}}</td>
+                                                    <td class="text-nowrap text-success"> <svg
+                                                            xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
+                                                            height="24" viewBox="0 0 24 24" stroke-width="2"
+                                                            stroke="currentColor" fill="none" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                            <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" />
+                                                            <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" />
+                                                        </svg> {{ value['Retweets'] | int }}
                                                     </td>
                                                 </tr>
                                                 {% endfor %}
@@ -415,6 +547,10 @@
         return [e, retweets_raw.data[i]];
     });
 
+    var likes_raw = JSON.parse({{ caracol.likes_graph | tojson }});
+    var likes_map = likes_raw.index.map(function (e, i) {
+        return [e, likes_raw.data[i]];
+    });
 
 
     var options = {
@@ -430,6 +566,10 @@
             {
                 name: "Retweets",
                 data: retweets_map
+            },
+            {
+                name: "Likes",
+                data: likes_map
             }
         ],
         chart: {
@@ -476,7 +616,7 @@
                 columnWidth: '50%',
             }
         },
-        colors: ["#206bc4", "#79a6dc", "#bfe399"],
+        colors: ["#206bc4", "#79a6dc", "#bfe399", "#bfe3ef"],
         grid: {
             padding: {
                 top: -20,
