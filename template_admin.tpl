@@ -472,7 +472,7 @@
 
 
                 <!--Noticias-->
-                <div class="col-12">
+                <div class="col-md-8">
                     <div class="row row-cards">
                         <div class="col-12">
                             <div class="card" style="height: calc(24rem + 10px)">
@@ -506,6 +506,19 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Generos-->
+                <div class="col-lg-6 col-xl-4">
+                    <div class="card">
+                        <div class="card-body" style="position: relative;">
+                            <h3 class="card-title">Genero de usuarios</h3>
+                            <br><br>
+                            <div id="chart-gender-pie" style="min-height: 201.9px;"></div>
+                        </div>
+                    </div>
+                </div>
+
+
 
 
             </div>
@@ -670,4 +683,57 @@
     series_hashtags.dataFields.value = "weight";
     series_hashtags.labels.template.tooltipText = "{tag}: {weight}";
     series_hashtags.maxFontSize = am4core.percent(50);
+</script>
+
+
+<script>
+    var gender_raw = JSON.parse({{ caracol.gender_graph | tojson }});
+    for (let step = 0; step < gender_raw.index.length; step++) {
+        if (gender_raw.index[step] == 'm') gender_raw.index[step] = 'Hombre'
+        else if (gender_raw.index[step] == 'f') gender_raw.index[step] = 'Mujer'
+        else gender_raw.index[step] = 'Desconocido'
+    }
+
+    var options = {
+        series: gender_raw.data,
+        chart: {
+            type: "donut",
+            fontFamily: 'inherit',
+            height: 240,
+            sparkline: {
+                enabled: true
+            },
+            animations: {
+                enabled: false
+            },
+        },
+        fill: {
+            opacity: 1,
+        },
+        labels: gender_raw.index,
+        grid: {
+            strokeDashArray: 4,
+        },
+        colors: ["#206bc4", "#79a6dc", "#d2e1f3", "#e9ecf1"],
+        legend: {
+            show: true,
+            position: 'bottom',
+            offsetY: 12,
+            markers: {
+                width: 10,
+                height: 10,
+                radius: 100,
+            },
+            itemMargin: {
+                horizontal: 8,
+                vertical: 8
+            },
+        },
+        tooltip: {
+            fillSeriesColor: false
+        }
+    };
+
+    var chart = new ApexCharts(document.querySelector("#chart-gender-pie"), options);
+    chart.render();
 </script>
