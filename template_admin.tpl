@@ -183,6 +183,42 @@
                     </div>
                 </div>
 
+
+                <div class="col-12">
+                    <div class="row row-cards">
+                        <div class="col-12">
+                            <div class="card" style="height: calc(24rem + 10px)">
+                                <div class="card-body card-body-scrollable card-body-scrollable-shadow">
+                                    <h3 class="card-title">Noticias</h3>
+                                    <div class="divide-y">
+
+                                        {% for item in caracol.news%}
+                                        <div>
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <span class="avatar"  style="font-size:6px">{{item.newspaper}}</span>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="text-truncate">
+                                                        <a href="{{item.link}}" target="_blank"><strong>{{item.title}}</strong></a>
+                                                    </div>
+                                                    <div class="text-muted">{{item.abstract}}</div>
+                                                </div>
+                                                <div class="col-auto align-self-center">
+                                                    <div class="badge bg-primary"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {% endfor %}
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </div>
