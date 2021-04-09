@@ -212,12 +212,12 @@
                                                             style="background-image: url(data:image/jpeg;base64,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)"></span>
                                                     </td>
                                                     <td class="text-nowrap text-muted">
-                                                        <a href="{{value['Tweet URL']}}" target="_blank"> {{
-                                                            value['UserName'] }} <br>
-                                                            {{ value['UserScreenName'] }}</a>
+                                                        <a href="{{value['link']}}" target="_blank"> {{
+                                                            value['username'] }} <br>
+                                                            {{ value['name'] }}</a>
                                                     </td>
                                                     <td class="td-text-nowrap">
-                                                        {{ value['Text'] }}
+                                                        {{ value['tweet'] }}
                                                     </td>
                                                     <td class="text-nowrap text-success">
                                                         <!-- Download SVG icon from http://tabler-icons.io/i/message-circle -->
@@ -230,7 +230,7 @@
                                                             <line x1="12" y1="12" x2="12" y2="12.01" />
                                                             <line x1="8" y1="12" x2="8" y2="12.01" />
                                                             <line x1="16" y1="12" x2="16" y2="12.01" />
-                                                        </svg> {{ value['Comments'] | int }}
+                                                        </svg> {{ value['replies_count'] | int }}
                                                     </td>
                                                     <td class="text-nowrap text-muted"> <svg
                                                             xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
@@ -240,7 +240,7 @@
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                                             <path
                                                                 d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
-                                                        </svg> {{ value['Likes'] | int}}</td>
+                                                        </svg> {{ value['likes_count'] | int}}</td>
                                                     <td class="text-nowrap text-muted"> <svg
                                                             xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
                                                             height="24" viewBox="0 0 24 24" stroke-width="2"
@@ -249,7 +249,7 @@
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                                             <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" />
                                                             <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" />
-                                                        </svg> {{ value['Retweets'] | int }}
+                                                        </svg> {{ value['retweets_count'] | int }}
                                                     </td>
                                                 </tr>
                                                 {% endfor %}
@@ -280,12 +280,12 @@
                                                             style="background-image: url(data:image/jpeg;base64,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)"></span>
                                                     </td>
                                                     <td class="text-nowrap text-muted">
-                                                        <a href="{{value['Tweet URL']}}" target="_blank"> {{
-                                                            value['UserName'] }} <br>
-                                                            {{ value['UserScreenName'] }}</a>
+                                                        <a href="{{value['link']}}" target="_blank"> {{
+                                                            value['username'] }} <br>
+                                                            {{ value['name'] }}</a>
                                                     </td>
                                                     <td class="td-text-nowrap">
-                                                        {{ value['Text'] }}
+                                                        {{ value['tweet'] }}
                                                     </td>
                                                     <td class="text-nowrap text-muted">
                                                         <!-- Download SVG icon from http://tabler-icons.io/i/message-circle -->
@@ -298,7 +298,7 @@
                                                             <line x1="12" y1="12" x2="12" y2="12.01" />
                                                             <line x1="8" y1="12" x2="8" y2="12.01" />
                                                             <line x1="16" y1="12" x2="16" y2="12.01" />
-                                                        </svg> {{ value['Comments'] | int }}
+                                                        </svg> {{ value['replies_count'] | int }}
                                                     </td>
                                                     <td class="text-nowrap text-success"> <svg
                                                             xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
@@ -308,7 +308,7 @@
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                                             <path
                                                                 d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
-                                                        </svg> {{ value['Likes'] | int}}</td>
+                                                        </svg> {{ value['likes_count'] | int}}</td>
                                                     <td class="text-nowrap text-muted"> <svg
                                                             xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
                                                             height="24" viewBox="0 0 24 24" stroke-width="2"
@@ -317,7 +317,7 @@
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                                             <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" />
                                                             <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" />
-                                                        </svg> {{ value['Retweets'] | int }}
+                                                        </svg> {{ value['retweets_count'] | int }}
                                                     </td>
                                                 </tr>
                                                 {% endfor %}
@@ -348,12 +348,12 @@
                                                             style="background-image: url(data:image/jpeg;base64,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)"></span>
                                                     </td>
                                                     <td class="text-nowrap text-muted">
-                                                        <a href="{{value['Tweet URL']}}" target="_blank"> {{
-                                                            value['UserName'] }} <br>
-                                                            {{ value['UserScreenName'] }}</a>
+                                                        <a href="{{value['link']}}" target="_blank"> {{
+                                                            value['username'] }} <br>
+                                                            {{ value['name'] }}</a>
                                                     </td>
                                                     <td class="td-text-nowrap">
-                                                        {{ value['Text'] }}
+                                                        {{ value['tweet'] }}
                                                     </td>
                                                     <td class="text-nowrap text-muted">
                                                         <!-- Download SVG icon from http://tabler-icons.io/i/message-circle -->
@@ -366,7 +366,7 @@
                                                             <line x1="12" y1="12" x2="12" y2="12.01" />
                                                             <line x1="8" y1="12" x2="8" y2="12.01" />
                                                             <line x1="16" y1="12" x2="16" y2="12.01" />
-                                                        </svg> {{ value['Comments'] | int }}
+                                                        </svg> {{ value['replies_count'] | int }}
                                                     </td>
                                                     <td class="text-nowrap text-muted"> <svg
                                                             xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
@@ -376,7 +376,7 @@
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                                             <path
                                                                 d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
-                                                        </svg> {{ value['Likes'] | int}}</td>
+                                                        </svg> {{ value['likes_count'] | int}}</td>
                                                     <td class="text-nowrap text-success"> <svg
                                                             xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
                                                             height="24" viewBox="0 0 24 24" stroke-width="2"
@@ -385,7 +385,7 @@
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                                             <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" />
                                                             <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" />
-                                                        </svg> {{ value['Retweets'] | int }}
+                                                        </svg> {{ value['retweets_count'] | int }}
                                                     </td>
                                                 </tr>
                                                 {% endfor %}
@@ -423,7 +423,8 @@
                                                     </td>
                                                     <td class="td-truncate">
                                                         <div class="text-truncate">
-                                                            {{ key }}
+                                                            <a href="https://twitter.com/{{key}}" target="_blank">@{{ key
+                                                                }}</a>
                                                         </div>
                                                     </td>
                                                     <td class="text-nowrap text-muted">{{ value }}</td>
@@ -456,7 +457,8 @@
                                                 <tr>
                                                     <td class="td-truncate">
                                                         <div class="text-truncate">
-                                                            {{ key }}
+                                                            <a href="https://twitter.com/hashtag/{{key}}"
+                                                                target="_blank">#{{ key }}</a>
                                                         </div>
                                                     </td>
                                                     <td class="text-nowrap text-muted">{{ value }}</td>
