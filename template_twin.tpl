@@ -399,7 +399,7 @@
                 </div>
 
                 <!-- Tops-->
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                     <div class="row row-cards">
                         <div class="col-12">
                             <div class="card" style="height: calc(24rem + 10px)">
@@ -438,7 +438,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                     <div class="row row-cards">
                         <div class="col-12">
                             <div class="card" style="height: calc(24rem + 10px)">
@@ -462,6 +462,40 @@
                                                         </div>
                                                     </td>
                                                     <td class="text-nowrap text-muted">{{ value }}</td>
+                                                </tr>
+                                                {% endfor %}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row row-cards">
+                        <div class="col-12">
+                            <div class="card" style="height: calc(24rem + 10px)">
+                                <div class="card-body card-body-scrollable card-body-scrollable-shadow">
+                                    <h3 class="card-title">Top de usuarios con más tweets creados</h3>
+                                    <div class="card-table table-responsive">
+                                        <table class="table table-vcenter">
+                                            <thead>
+                                                <tr>
+                                                    <th>Usuario</th>
+                                                    <th>Tweets</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {% for key,value in caracol.top_bot_machinegun.iterrows() %}
+                                                <tr>
+                                                    <td class="td-truncate">
+                                                        <div class="text-truncate">
+                                                            <a href="https://twitter.com/{{key}}"
+                                                                target="_blank">@{{ key }}</a>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-nowrap text-muted">{{ value['text_count'] | int  }}</td>
                                                 </tr>
                                                 {% endfor %}
                                             </tbody>
