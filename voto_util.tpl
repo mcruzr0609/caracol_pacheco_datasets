@@ -1,4 +1,3 @@
-estados_map
 <script src="https://unpkg.com/@tabler/core@latest/dist/js/tabler.min.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/@tabler/core@latest/dist/css/tabler.min.css">
 <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
